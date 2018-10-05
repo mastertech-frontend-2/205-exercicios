@@ -9,3 +9,11 @@ Você dá seus chutes através da janela de prompt(). Se você acertar, o progra
 Ex. dos parâmetros:  ["João", "José", "Joaquim"] e ["Maria", "Ana", "Joana", "Joaquina"].
 A função deve retornar uma lista de strings com todos os casais que podem ser formados por essas pessoas.
 Ex. do retorno: ["João e Maria", "João e Ana", "João e Joana", "João e Joaquina", "José e Maria", "José e Ana", "José e Joana", "José e Joaquina", "Joaquim e Maria", "Joaquim e Ana", "Joaquim e Joana", "Joaquim e Joaquina"].
+
+4. Escreva uma função para validar uma entrada numérica, recebida por um prompt.
+A função deve receber três parâmetros: a string de entrada do prompt, o limite inferior para o numero e o limite superior para o numero.
+Caso a entrada seja válida, retornar true. Caso não seja um número ou não esteja dentro dos limites, retornar false.
+Ex.: 
+suaFuncao("34", 10, 50) -> true
+suaFuncao("abcd", 10, 50) -> false
+suaFuncao("2", 6, 8) -> false 
