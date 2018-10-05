@@ -1,0 +1,11 @@
+EXERCICIOS:
+
+1. Leia e entenda a função 'aleatorio', que está no arquivo aleatorio.js. Use a função para gerar números e verificar seu funcionamento.
+
+2. Escreva um programa em que o computador sorteia um número aleatório entre 1 e 50, e você tem que adivinhar que número é.
+Você dá seus chutes através da janela de prompt(). Se você acertar, o programa alerta "Acertou" e encerra. Se você chutar um número maior, o programa alerta ("Era um número menor"). Se você chutar um número menor, o programa alerta ("Era um número menor"). Você tem 5 chances para acertar o número, ou o programa alerta ("Tentativas insuficientes") e encerra.
+
+3. Escreva uma função que recebe duas listas, uma de meninos e uma de meninas.
+Ex. dos parâmetros:  ["João", "José", "Joaquim"] e ["Maria", "Ana", "Joana", "Joaquina"].
+A função deve retornar uma lista de strings com todos os casais que podem ser formados por essas pessoas.
+Ex. do retorno: ["João e Maria", "João e Ana", "João e Joana", "João e Joaquina", "José e Maria", "José e Ana", "José e Joana", "José e Joaquina", "Joaquim e Maria", "Joaquim e Ana", "Joaquim e Joana", "Joaquim e Joaquina"].
